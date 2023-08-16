@@ -4,4 +4,5 @@ import skhuaz_admin.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', skhuaz_admin.views.index, name='index'),
 ]
